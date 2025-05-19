@@ -19,7 +19,7 @@ const RotatingCube = ()=> {
   return(
     <mesh ref={meshRef}>
       <cylinderGeometry args={[1,1,1]}  />
-      <meshLambertMaterial color='#C37A52' emissive='#C37A52'/>
+      <meshLambertMaterial color='#C55555' emissive='#C55555'/>
       <Sparkles count={100} size={6} scale={5} speed={0.002} noise={0.2} color="#FFFFFF" />
     </mesh>
   )
