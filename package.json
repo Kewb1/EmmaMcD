@@ -1,13 +1,16 @@
 {
   "name": "emmamcd",
   "private": true,
+  "homepage" : "https://kewb1.github.io/EmmaMcD/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d dist"  
   },
   "dependencies": {
     "@react-three/drei": "^10.0.8",
