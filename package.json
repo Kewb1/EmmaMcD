@@ -1,7 +1,7 @@
 {
   "name": "emmamcd",
   "private": true,
-  "homepage" : "https://kewb1.github.io/EmmaMcD/",
+  "homepage": "https://kewb1.github.io/EmmaMcD/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,13 +10,16 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist --dotfiles --add"  
+    "deploy": "gh-pages -d dist --dotfiles --add"
   },
   "dependencies": {
     "@react-three/drei": "^10.0.8",
     "@react-three/fiber": "^9.1.2",
+    "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-type-animation": "^3.2.0",
+    "simplex-noise": "^4.0.3",
     "three": "^0.176.0"
   },
   "devDependencies": {
